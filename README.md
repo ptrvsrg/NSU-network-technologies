@@ -7,3 +7,4 @@
 + [Лабораторная работа 3. DNS](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab3)
 + [Лабораторная работа 4. TCP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab4)
 + [Лабораторная работа 5. UDP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab5)
++ [Лабораторная работа 6. IP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab6)
