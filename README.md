@@ -8,3 +8,6 @@
 + [Лабораторная работа 4. TCP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab4)
 + [Лабораторная работа 5. UDP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab5)
 + [Лабораторная работа 6. IP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab6)
++ [Лабораторная работа 6. NAT](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab7)
++ [Лабораторная работа 6. DHCP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab8)
++ [Лабораторная работа 6. ICMP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab9)
