@@ -12,3 +12,4 @@
 + [Лабораторная работа 8. DHCP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab8)
 + [Лабораторная работа 9. ICMP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab9)
 + [Лабораторная работа 10. Ethernet и ARP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab10)
++ [Лабораторная работа 11. 802.11](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab11)
