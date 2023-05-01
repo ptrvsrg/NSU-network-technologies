@@ -13,3 +13,4 @@
 + [Лабораторная работа 9. ICMP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab9)
 + [Лабораторная работа 10. Ethernet и ARP](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab10)
 + [Лабораторная работа 11. 802.11](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab11)
++ [Лабораторная работа 12. TLS](https://github.com/ptrvsrg/NSU_Network_Technologies/tree/master/lab12)
