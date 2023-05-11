@@ -89,7 +89,7 @@ DNS-сервер должен обслуживать зону `.nsu`.
 
    + Директива `totem`:
 
-        ```text
+        ```
             interface {
                 ringnumber: 0
                 bindnetaddr: <адрес сети кластера (IP-address & netmask)>
@@ -99,7 +99,7 @@ DNS-сервер должен обслуживать зону `.nsu`.
 
    + Директива `nodelist`:
 
-        ```text
+        ```
             node {
                 name: node1
                 nodeid: 1
@@ -155,7 +155,7 @@ DNS-сервер должен обслуживать зону `.nsu`.
 1. Отредактировать `/etc/haproxy/haproxy.cfg`:
     + Дописывать в конец:
 
-        ```text
+        ```
             frontend front
                 bind <адрес haproxy-сервера>:80
                 default_backend back
@@ -385,19 +385,19 @@ XML-файлами настройки Pacemaker’а, который распр�
 
 3. Записать в `/etc/bind/db.nsu`:
 
-    ```text
+    ```
         $TTL 604800
-        @     IN     SOA ns.nsu. root.nsu. (
-                  6 ; Serial
-                  10800 ; Refresh
-                  3600 ; Retry
-                  3600000 ; Expire
-                  604800) ; Negative cache TTL
+        @       IN      SOA ns.nsu. root.nsu. (
+                        6 ; Serial
+                        10800 ; Refresh
+                        3600 ; Retry
+                        3600000 ; Expire
+                        604800) ; Negative cache TTL
         ;
-        @    IN   NS   ns.nsu.
-        ns   IN   A    <адрес DNS-сервера>
-        fit  IN   A    <адрес haproxy-сервера>
-        fit2 IN   A    <адрес haproxy-сервера>
+        @       IN      NS      ns.nsu.
+        ns      IN      A       <адрес DNS-сервера>
+        fit     IN      A       <адрес haproxy-сервера>
+        fit2    IN      A       <адрес haproxy-сервера>
     ```
 
 4. Добавить новую зону в `/etc/bind/named.conf.defaultzones`:
@@ -423,7 +423,7 @@ XML-файлами настройки Pacemaker’а, который распр�
 
 7. Добавить путь до DNS сервера в `/etc/network/interfaces`:
 
-    ```text
+    ```
         dns-nameservers <адрес DNS-сервера>
     ```
 
